@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiap Filmes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id = "titulo">Fiap Filmes</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Filmes</a></li>
+                <li><a href="./series.html">Séries</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="heroStranger">
+        <div class="rounded_rectangle_movie" style = "content: url(https://www.themoviedb.org/t/p/w600_and_h900_bestv2/49WJfeN0moxb9IPfGn8AIqMGskD.jpg);"></div>
+        <div class="movie_title">
+            <p class="heroStranger"> Stranger Things </p>
+        </div>
+        <div class="movie_description">
+            <p class="sinopse">Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.
+            </p>
+        </div>
+    </div>
+    
+    <div class="navigation_buttons_container">
+        <a href="./series.html">
+            <div class="navigation_buttons">
+                <div>
+                    <span class="material-symbols-outlined white sized">
+                        arrow_circle_left
+                    </span>
+                    <span class="navButtons_label" style="bottom: 12px;"> Voltar </span>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.themoviedb.org/tv/66732-stranger-things">
+            <div class="navigation_buttons">
+                <div>
+                    <span class="material-symbols-outlined white sized">
+                        language
+                    </span>
+                    <span class="navButtons_label" style="bottom: 12px;"> Site </span>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=Yih1taiXm3Y">
+            <div class="navigation_buttons">
+                <div>
+                    <span class="material-symbols-outlined white sized">
+                        theaters
+                    </span>
+                    <span class="navButtons_label" style="bottom: 12px;"> Trailer </span>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <h2 style="margin-left: 120px; margin-bottom: 20px;">Elenco</h2>
+    <div class="elenco_container">
+        <div class="rounded_rectangle_elenco">
+            <div class="circle_img_elenco" style = "background-image: url(https://www.themoviedb.org/t/p/w138_and_h175_face/v30xviO4bvD9ex6CNdfB2XtVgRb.jpg);"></div>
+            <span  class="actor_name">Millie Bobby Brown</span> 
+            <span class="character_name">Jane “Eleven”</span>
+        </div>
+        <div class="rounded_rectangle_elenco">
+            <div class="circle_img_elenco" style = "background-image: url(https://www.themoviedb.org/t/p/w138_and_h175_face/rymbG27dRdRldtjZz3JfNpUT7A1.jpg)"></div>
+            <span  class="actor_name">Winona Ryder</span>
+            <span class="character_name">Joyce Byers</span>
+        </div>
+        <div class="rounded_rectangle_elenco">
+            <div class="circle_img_elenco" style = "background-image: url(https://www.themoviedb.org/t/p/w138_and_h175_face/chPekukMF5SNnW6b22NbYPqAStr.jpg)"></div>
+            <span  class="actor_name">David Harbour</span>
+            <span class="character_name">Jim Hopper</span>
+        </div>
+        <div class="rounded_rectangle_elenco">
+            <div class="circle_img_elenco" style = "background-image: url(https://www.themoviedb.org/t/p/w138_and_h175_face/9uoEc9p5fPMSjZgW5hMxPK6L2eX.jpg)"></div>
+            <span  class="actor_name">Finn Wolfhard</span>
+            <span class="character_name">Mike Wheeler</span>
+        </div>
+        <div id="movie_details_container">
+            <div class="movie_details">
+                <h2 style="margin-left: 10px; margin-top: 10px; margin-bottom: 25px">Ficha técnica</h2>
+                <span class="description_main"> Título original</span>
+                <span class="description_submain"> Stranger Things </span>
+
+                <span class="description_main" style="top: 40px;"> Idioma original </span>
+                <span class="description_submain" style="top: 65px; right: 145px;"> Inglês </span>
+
+                <span class="description_main" style="top: 90px;"> Orçamento total </span>
+                <span class="description_submain" style="top: 115px; right: 155px;"> US$496 mi</span>
+
+                <span class="description_main" style="top: 140px; right: -5px;"> Receita total </span>
+                <span class="description_submain" style="top: 165px; right: 120px;"> US$122 mi</span>
+
+                <span class="description_main" style="top: 190px;"> Lançamento </span>
+                <span class="description_submain" style="top: 215px; right: 125px;"> 15/07/2016 </span>
+
+                <span class="description_main" style="top: 260px; right: 244px"> Nota </span>
+                <span class="description_submain" style="top: 260px; right: -2px;"> 8.6 </span>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+<script src="Card.js"></script>
+<script src="dados.js"></script>
+<script src="script.js"></script>
+</html>
