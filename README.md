@@ -51,6 +51,6 @@ Entregável da CHECKPOINT do segundo semetre de `Advanced Programming & Mobile D
 
 <p align="center">
     <a href="./LICENSE" target="_blank">
-        <img src="https://img.shields.io/github/license/lbenedettomt/lbenedettomt.github.io?style=for-the-badge" alt="MIT LICENSE">
+        <img src="https://img.shields.io/github/license/Lbenedettomt/lbenedettomt.github.io?style=for-the-badge" alt="MIT LICENSE">
     </a>
 </p>
