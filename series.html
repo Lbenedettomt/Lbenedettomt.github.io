@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiap Filmes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <span class="material-icons logo">theaters</span>
         <h1 id = "titulo">Fiap Filmes</h1>
         <nav>
             <ul>
                 <li><a href="./index.html">Filmes</a></li>
-                <li><a href="">Séries</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./series.html">Séries</a></li>
+                <li class="nav-direita"><a href="./sobre.html">Sobre</a></li>
             </ul>
         </nav>
     </header>
@@ -25,12 +26,12 @@
         <p>Escolha rapidamente o que assistir</p>
     </div>
     
-    <h2>Séries em alta</h2>
+    <h2 style="margin-left: 20px">Séries em alta</h2>
     <section id="series" class="secao-series">
     </section>
 
 </body>
-<script src="cardSeries.js"></script>
-<script src="dadosSeries.js"></script>
-<script src="scriptSeries.js"></script>
+<script src="js/cardSeries.js"></script>
+<script src="js/dadosSeries.js"></script>
+<script src="js/scriptSeries.js"></script>
 </html>
