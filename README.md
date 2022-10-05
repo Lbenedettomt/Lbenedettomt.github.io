@@ -1,23 +1,24 @@
 <h1 align="center">FIAP-Filmes-Web</h1>
 <p align="center">
-    <img src="img/logo.png" alt="logo" width="400">
+    <img src="img/logo.png" alt="logo" width="400"><br>
+    <img src="http://img.shields.io/badge/status-finalizado-brightgreen?style=for-the-badge" alt="Status">
 </p>
 
-### Tópicos
-:small_blue_diamond: [Checkpoint](#checkpoint-bookmark_tabs)  
-:small_blue_diamond: [Sobre](#sobre-book)  
-:small_blue_diamond: [Progresso](#progresso-arrow_up)  
-:small_blue_diamond: [Integrantes 3ECA](#integrantes-3eca-handshake)  
+### Tópicos :large_blue_diamond:
+**:small_blue_diamond: [Checkpoint :bookmark_tabs:](#checkpoint-bookmark_tabs)**  
+**:small_blue_diamond: [Sobre :book:](#sobre-book)**  
+**:small_blue_diamond: [Progresso :arrow_up:](#progresso-arrow_up)**  
+**:small_blue_diamond: [Integrantes 3ECA :handshake:](#integrantes-3eca-handshake)**
 
 ## Checkpoint :bookmark_tabs:
-Entregável da CHECKPOINT do segundo semetre de `Advanced Programming & Mobile Dev`, professor:
+Entregável da CHECKPOINT do segundo semetre de *Advanced Programming & Mobile Dev*, professor:
 
 | [<img src="https://avatars.githubusercontent.com/u/5585727" width=115><br><sub>João Carlos Lima</sub>](https://github.com/joaocarloslima) | 
 | :---: 
 
 ## Sobre :book:
 <p align="justify">
-    A atividade consiste em finalizar o site FIAP Filmes Web que foi desenvolvido em sala de aula, implementando uma página de detalhes sobre o filme ou série e uma página sobre os integrantes do projeto.
+    A atividade consiste em finalizar o site <strong><a href="https://lbenedettomt.github.io/" target="_blank">FIAP Filmes Web</a></strong> que foi desenvolvido em sala de aula, implementando uma página de detalhes sobre o filme ou série e uma página sobre os integrantes do projeto.
 </p>
 <p align="center">
     <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
@@ -32,7 +33,6 @@ Entregável da CHECKPOINT do segundo semetre de `Advanced Programming & Mobile D
     <a href="https://code.visualstudio.com" target="_blank">
         <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VSCode">
     </a>
-    <img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=brightgreenn&style=for-the-badge" alt="Status">
 </p>
 
 ## Progresso :arrow_up:
